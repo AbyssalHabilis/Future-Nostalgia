@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/past_grass_block"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/grass_block"
+    },
+    "values": {
+      "Past Grass Block": true
+    }
+  }
+}
