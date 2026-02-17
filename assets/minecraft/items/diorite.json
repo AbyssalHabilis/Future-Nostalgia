@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/past_diorite"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diorite"
+    },
+    "values": {
+      "Past Diorite": true
+    }
+  }
+}
